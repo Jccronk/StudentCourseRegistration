@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_course_registration_8cpp" kind="file" language="C++">
+    <compoundname>CourseRegistration.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>CourseRegistration.cpp</label>
+        <link refid="_course_registration_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_course_registration" prot="public">CourseRegistration</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_course_registration_8cpp_1ae855faebf1c97a76db0a892fb7c5ff8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;input, CourseRegistration &amp;courseReg)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type><ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> &amp;</type>
+          <declname>courseReg</declname>
+        </param>
+        <briefdescription>
+<para>Input stream extraction operator for <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> objects. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>input a <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> object from an input stream by reading course registration information</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input stream to read from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>courseReg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> object to make with input values </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The input stream (input) after reading the <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="CourseRegistration.cpp" line="47" column="14" bodyfile="CourseRegistration.cpp" bodystart="47" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="_course_registration_8cpp_1a270f9386338b844ff616dd3df44baf78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;output, const CourseRegistration &amp;courseReg)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> &amp;</type>
+          <declname>courseReg</declname>
+        </param>
+        <briefdescription>
+<para>Output stream insertion operator for <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> objects. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>output a <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> object to an output stream by printing course registration information</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>courseReg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> object to output </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The output stream (output) after writing the <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="CourseRegistration.cpp" line="76" column="1" bodyfile="CourseRegistration.cpp" bodystart="76" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_course_registration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_course_registration" kindref="compound">CourseRegistration</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_course_registration_1af69a665d7d1e3a896ec2986c8e288a66" kindref="member">courseIdentifier</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_course_registration_1ab8455278c9cc0783893a3bce2a8fd655" kindref="member">studentIdentifier</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_course_registration_1acd29cb48054fc1035659af67a3a445b6" kindref="member">numberOfCreditHours</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="class_course_registration_1afc23eb1591c214bc15d8a6ebbabb663b" kindref="member">courseGrade</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_course_registration_1ad02cda6ae6cba23ef881bed7241484b1" kindref="member">CourseRegistration</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>courseID<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>studentID<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>creditHours<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>grade<sp/>=<sp/></highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Input<sp/>and<sp/>output<sp/>operators</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::istream&amp;<sp/><ref refid="class_course_registration_1ae855faebf1c97a76db0a892fb7c5ff8f" kindref="member">operator&gt;&gt;</ref>(std::istream&amp;<sp/>input,<sp/><ref refid="class_course_registration" kindref="compound">CourseRegistration</ref>&amp;<sp/>courseReg);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::ostream&amp;<sp/><ref refid="class_course_registration_1a270f9386338b844ff616dd3df44baf78" kindref="member">operator&lt;&lt;</ref>(std::ostream&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_course_registration" kindref="compound">CourseRegistration</ref>&amp;<sp/>courseReg);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="class_course_registration_1ad02cda6ae6cba23ef881bed7241484b1" kindref="member">CourseRegistration::CourseRegistration</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>courseID,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>studentID,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>creditHours,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>grade)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>courseIdentifier(courseID),<sp/>studentIdentifier(studentID),<sp/>numberOfCreditHours(creditHours),<sp/>courseGrade(grade)<sp/>{}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">std::istream&amp;<sp/><ref refid="_course_registration_8cpp_1ae855faebf1c97a76db0a892fb7c5ff8f" kindref="member">operator&gt;&gt;</ref>(std::istream&amp;<sp/>input,<sp/><ref refid="class_course_registration" kindref="compound">CourseRegistration</ref>&amp;<sp/>courseReg)<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Enter<sp/>course<sp/>ID,<sp/>or<sp/>&lt;cr&gt;<sp/>to<sp/>end:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>std::getline(input,<sp/>courseReg.<ref refid="class_course_registration_1af69a665d7d1e3a896ec2986c8e288a66" kindref="member">courseIdentifier</ref>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Enter<sp/>student<sp/>ID:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>std::getline(input,<sp/>courseReg.<ref refid="class_course_registration_1ab8455278c9cc0783893a3bce2a8fd655" kindref="member">studentIdentifier</ref>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Enter<sp/>number<sp/>of<sp/>credit<sp/>hours:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>input<sp/>&gt;&gt;<sp/>courseReg.<ref refid="class_course_registration_1acd29cb48054fc1035659af67a3a445b6" kindref="member">numberOfCreditHours</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Enter<sp/>course<sp/>grade:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>input<sp/>&gt;&gt;<sp/>courseReg.<ref refid="class_course_registration_1afc23eb1591c214bc15d8a6ebbabb663b" kindref="member">courseGrade</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>the<sp/>input<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>input.ignore(std::numeric_limits&lt;std::streamsize&gt;::max(),<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>input;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">std::ostream&amp;<sp/><ref refid="_course_registration_8cpp_1a270f9386338b844ff616dd3df44baf78" kindref="member">operator&lt;&lt;</ref>(std::ostream&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_course_registration" kindref="compound">CourseRegistration</ref>&amp;<sp/>courseReg)<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>courseReg.<ref refid="class_course_registration_1af69a665d7d1e3a896ec2986c8e288a66" kindref="member">courseIdentifier</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>courseReg.<ref refid="class_course_registration_1ab8455278c9cc0783893a3bce2a8fd655" kindref="member">studentIdentifier</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>courseReg.<ref refid="class_course_registration_1acd29cb48054fc1035659af67a3a445b6" kindref="member">numberOfCreditHours</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>courseReg.<ref refid="class_course_registration_1afc23eb1591c214bc15d8a6ebbabb663b" kindref="member">courseGrade</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>output;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="CourseRegistration.cpp"/>
+  </compounddef>
+</doxygen>

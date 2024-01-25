@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "StudentCourseRegistration",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CourseRegistrationTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CourseRegistrationTest-Debug-cf536bd5d9a416e6897e.json",
+					"name" : "CourseRegistrationTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DateTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DateTest-Debug-fd60cfe6ff09c3afdebb.json",
+					"name" : "DateTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StudentTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StudentTest-Debug-fdd451381d8b493fcb41.json",
+					"name" : "StudentTest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug",
+		"source" : "/Users/jakecronk/CLionProjects/StudentCourseRegistration"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

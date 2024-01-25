@@ -1,0 +1,203 @@
+\doxysection{Course\+Registration Class Reference}
+\label{class_course_registration}\index{CourseRegistration@{CourseRegistration}}
+
+
+Class representing a course registration record.  
+
+
+
+
+{\ttfamily \#include $<$Course\+Registration.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Course\+Registration} (const std\+::string \&course\+ID="{}"{}, const std\+::string \&student\+ID="{}"{}, int credit\+Hours=0, char grade=\textquotesingle{} \textquotesingle{})
+\begin{DoxyCompactList}\small\item\em Default Constructor for the \doxyref{Course\+Registration}{p.}{class_course_registration} class. \end{DoxyCompactList}\item 
+\textbf{ Course\+Registration} (const std\+::string \&course\+ID="{}"{}, const std\+::string \&student\+ID="{}"{}, int credit\+Hours=0, char grade=\textquotesingle{} \textquotesingle{})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \textbf{ course\+Identifier}
+\item 
+std\+::string \textbf{ student\+Identifier}
+\item 
+int \textbf{ number\+Of\+Credit\+Hours}
+\item 
+char \textbf{ course\+Grade}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::istream \& \textbf{ operator$>$$>$} (std\+::istream \&input, \textbf{ Course\+Registration} \&course\+Reg)
+\begin{DoxyCompactList}\small\item\em Input stream extraction operator for \doxyref{Course\+Registration}{p.}{class_course_registration} objects. \end{DoxyCompactList}\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&output, const \textbf{ Course\+Registration} \&course\+Reg)
+\begin{DoxyCompactList}\small\item\em Output stream insertion operator for \doxyref{Course\+Registration}{p.}{class_course_registration} objects. \end{DoxyCompactList}\item 
+std\+::istream \& \textbf{ operator$>$$>$} (std\+::istream \&input, \textbf{ Course\+Registration} \&course\+Reg)
+\begin{DoxyCompactList}\small\item\em Input stream extraction operator for \doxyref{Course\+Registration}{p.}{class_course_registration} objects. \end{DoxyCompactList}\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&output, const \textbf{ Course\+Registration} \&course\+Reg)
+\begin{DoxyCompactList}\small\item\em Output stream insertion operator for \doxyref{Course\+Registration}{p.}{class_course_registration} objects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing a course registration record. 
+
+Represents a course registration record.
+
+{\ttfamily \doxyref{Course\+Registration}{p.}{class_course_registration}} class stores information about a course registration including course identifier, student id, number of credit hours, and course grade
+
+This class stores information about a course registration, including course identifier, student id, number of credit hours, and the course grade 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_course_registration_ad02cda6ae6cba23ef881bed7241484b1} 
+\index{CourseRegistration@{CourseRegistration}!CourseRegistration@{CourseRegistration}}
+\index{CourseRegistration@{CourseRegistration}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{CourseRegistration()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Course\+Registration\+::\+Course\+Registration (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{course\+ID = {\ttfamily "{}"{}},  }\item[{const std\+::string \&}]{student\+ID = {\ttfamily "{}"{}},  }\item[{int}]{credit\+Hours = {\ttfamily 0},  }\item[{char}]{grade = {\ttfamily \textquotesingle{}~\textquotesingle{}} }\end{DoxyParamCaption})}
+
+
+
+Default Constructor for the \doxyref{Course\+Registration}{p.}{class_course_registration} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em course\+ID} & course identifier (default is an empty string) \\
+\hline
+{\em student\+ID} & student identifier (default is an empty string) \\
+\hline
+{\em credit\+Hours} & number of credit hours (default is 0) \\
+\hline
+{\em grade} & course grade (default is a space character) \\
+\hline
+\end{DoxyParams}
+\label{class_course_registration_ad02cda6ae6cba23ef881bed7241484b1} 
+\index{CourseRegistration@{CourseRegistration}!CourseRegistration@{CourseRegistration}}
+\index{CourseRegistration@{CourseRegistration}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{CourseRegistration()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Course\+Registration\+::\+Course\+Registration (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{course\+ID = {\ttfamily "{}"{}},  }\item[{const std\+::string \&}]{student\+ID = {\ttfamily "{}"{}},  }\item[{int}]{credit\+Hours = {\ttfamily 0},  }\item[{char}]{grade = {\ttfamily \textquotesingle{}~\textquotesingle{}} }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\label{class_course_registration_a270f9386338b844ff616dd3df44baf78} 
+\index{CourseRegistration@{CourseRegistration}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{operator$<$$<$\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{output,  }\item[{const \textbf{ Course\+Registration} \&}]{course\+Reg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Output stream insertion operator for \doxyref{Course\+Registration}{p.}{class_course_registration} objects. 
+
+output a \doxyref{Course\+Registration}{p.}{class_course_registration} object to an output stream by printing course registration information
+
+
+\begin{DoxyParams}{Parameters}
+{\em output} & The output stream to write to \\
+\hline
+{\em course\+Reg} & The \doxyref{Course\+Registration}{p.}{class_course_registration} object to output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The output stream (output) after writing the \doxyref{Course\+Registration}{p.}{class_course_registration} 
+\end{DoxyReturn}
+\label{class_course_registration_a270f9386338b844ff616dd3df44baf78} 
+\index{CourseRegistration@{CourseRegistration}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{operator$<$$<$\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{output,  }\item[{const \textbf{ Course\+Registration} \&}]{course\+Reg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Output stream insertion operator for \doxyref{Course\+Registration}{p.}{class_course_registration} objects. 
+
+output a \doxyref{Course\+Registration}{p.}{class_course_registration} object to an output stream by printing course registration information
+
+
+\begin{DoxyParams}{Parameters}
+{\em output} & The output stream to write to \\
+\hline
+{\em course\+Reg} & The \doxyref{Course\+Registration}{p.}{class_course_registration} object to output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The output stream (output) after writing the \doxyref{Course\+Registration}{p.}{class_course_registration} 
+\end{DoxyReturn}
+\label{class_course_registration_ae855faebf1c97a76db0a892fb7c5ff8f} 
+\index{CourseRegistration@{CourseRegistration}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{operator$>$$>$\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{input,  }\item[{\textbf{ Course\+Registration} \&}]{course\+Reg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Input stream extraction operator for \doxyref{Course\+Registration}{p.}{class_course_registration} objects. 
+
+input a \doxyref{Course\+Registration}{p.}{class_course_registration} object from an input stream by reading course registration information
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & The input stream to read from \\
+\hline
+{\em course\+Reg} & The \doxyref{Course\+Registration}{p.}{class_course_registration} object to make with input values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The input stream (input) after reading the \doxyref{Course\+Registration}{p.}{class_course_registration} 
+\end{DoxyReturn}
+\label{class_course_registration_ae855faebf1c97a76db0a892fb7c5ff8f} 
+\index{CourseRegistration@{CourseRegistration}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{operator$>$$>$\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{input,  }\item[{\textbf{ Course\+Registration} \&}]{course\+Reg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Input stream extraction operator for \doxyref{Course\+Registration}{p.}{class_course_registration} objects. 
+
+input a \doxyref{Course\+Registration}{p.}{class_course_registration} object from an input stream by reading course registration information
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & The input stream to read from \\
+\hline
+{\em course\+Reg} & The \doxyref{Course\+Registration}{p.}{class_course_registration} object to make with input values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The input stream (input) after reading the \doxyref{Course\+Registration}{p.}{class_course_registration} 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\label{class_course_registration_afc23eb1591c214bc15d8a6ebbabb663b} 
+\index{CourseRegistration@{CourseRegistration}!courseGrade@{courseGrade}}
+\index{courseGrade@{courseGrade}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{courseGrade}
+{\footnotesize\ttfamily char Course\+Registration\+::course\+Grade}
+
+\label{class_course_registration_af69a665d7d1e3a896ec2986c8e288a66} 
+\index{CourseRegistration@{CourseRegistration}!courseIdentifier@{courseIdentifier}}
+\index{courseIdentifier@{courseIdentifier}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{courseIdentifier}
+{\footnotesize\ttfamily std\+::string Course\+Registration\+::course\+Identifier}
+
+\label{class_course_registration_acd29cb48054fc1035659af67a3a445b6} 
+\index{CourseRegistration@{CourseRegistration}!numberOfCreditHours@{numberOfCreditHours}}
+\index{numberOfCreditHours@{numberOfCreditHours}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{numberOfCreditHours}
+{\footnotesize\ttfamily int Course\+Registration\+::number\+Of\+Credit\+Hours}
+
+\label{class_course_registration_ab8455278c9cc0783893a3bce2a8fd655} 
+\index{CourseRegistration@{CourseRegistration}!studentIdentifier@{studentIdentifier}}
+\index{studentIdentifier@{studentIdentifier}!CourseRegistration@{CourseRegistration}}
+\doxysubsubsection{studentIdentifier}
+{\footnotesize\ttfamily std\+::string Course\+Registration\+::student\+Identifier}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Course\+Registration.\+cpp}\item 
+\textbf{ Course\+Registration.\+h}\end{DoxyCompactItemize}

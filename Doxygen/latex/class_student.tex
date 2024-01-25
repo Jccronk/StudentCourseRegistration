@@ -1,0 +1,217 @@
+\doxysection{Student Class Reference}
+\label{class_student}\index{Student@{Student}}
+
+
+{\ttfamily \#include $<$Student.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Student} (int id=0, const std\+::string \&first="{}"{}, const std\+::string \&last="{}"{}, const std\+::string \&addr="{}"{}, const \textbf{ Date} \&date=\textbf{ Date}(), int credits=0)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxyref{Student}{p.}{class_student} class. \end{DoxyCompactList}\item 
+int \textbf{ get\+Identifier} () const
+\item 
+void \textbf{ set\+Identifier} (int id)
+\item 
+const std\+::string \& \textbf{ get\+First\+Name} () const
+\item 
+void \textbf{ set\+First\+Name} (const std\+::string \&first)
+\item 
+const std\+::string \& \textbf{ get\+Last\+Name} () const
+\item 
+void \textbf{ set\+Last\+Name} (const std\+::string \&last)
+\item 
+const std\+::string \& \textbf{ get\+Address} () const
+\item 
+void \textbf{ set\+Address} (const std\+::string \&addr)
+\item 
+const \textbf{ Date} \& \textbf{ get\+Enrollment\+Date} () const
+\item 
+void \textbf{ set\+Enrollment\+Date} (const \textbf{ Date} \&date)
+\item 
+int \textbf{ get\+Credit\+Hours\+Completed} () const
+\item 
+void \textbf{ set\+Credit\+Hours\+Completed} (int credits)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::istream \& \textbf{ operator$>$$>$} (std\+::istream \&in, \textbf{ Student} \&student)
+\begin{DoxyCompactList}\small\item\em Input stream extraction operator for \doxyref{Student}{p.}{class_student} objects. \end{DoxyCompactList}\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&out, const \textbf{ Student} \&student)
+\begin{DoxyCompactList}\small\item\em Output stream insertion operator for \doxyref{Student}{p.}{class_student} objects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_student_a95538a8aaa348c49e524704809a7bc24} 
+\index{Student@{Student}!Student@{Student}}
+\index{Student@{Student}!Student@{Student}}
+\doxysubsubsection{Student()}
+{\footnotesize\ttfamily Student\+::\+Student (\begin{DoxyParamCaption}\item[{int}]{id = {\ttfamily 0},  }\item[{const std\+::string \&}]{first = {\ttfamily "{}"{}},  }\item[{const std\+::string \&}]{last = {\ttfamily "{}"{}},  }\item[{const std\+::string \&}]{addr = {\ttfamily "{}"{}},  }\item[{const \textbf{ Date} \&}]{date = {\ttfamily \textbf{ Date}()},  }\item[{int}]{credits = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \doxyref{Student}{p.}{class_student} class. 
+
+Initializes a new \doxyref{Student}{p.}{class_student} object with optional parameters for the student\textquotesingle{}s details If no arguments are provided, default values are used
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The student\textquotesingle{}s unique id number. Default is 0 \\
+\hline
+{\em first} & The student\textquotesingle{}s first name. Default is an empty string \\
+\hline
+{\em last} & The student\textquotesingle{}s last name. Default is an empty string \\
+\hline
+{\em addr} & The student\textquotesingle{}s address. Default is an empty string \\
+\hline
+{\em date} & The student\textquotesingle{}s birthday. Default is a default-\/constructed \doxyref{Date}{p.}{class_date} object \\
+\hline
+{\em credits} & The number of credits the student has earned. Default is 0\\
+\hline
+\end{DoxyParams}
+This constructor initializes a \doxyref{Student}{p.}{class_student} object with the specified attributes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The student id \\
+\hline
+{\em first} & The first name of the student \\
+\hline
+{\em last} & The last name of the student \\
+\hline
+{\em addr} & The address of the student \\
+\hline
+{\em date} & The enrollment date of the student (a \doxyref{Date}{p.}{class_date} object) \\
+\hline
+{\em credits} & The number of credit hours completed by the student \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_student_a606f1a860663f393919b1c21081ceaab} 
+\index{Student@{Student}!getAddress@{getAddress}}
+\index{getAddress@{getAddress}!Student@{Student}}
+\doxysubsubsection{getAddress()}
+{\footnotesize\ttfamily const std\+::string \& Student\+::get\+Address (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\label{class_student_ac817a52dd5dc052c4ac09b7b90a65879} 
+\index{Student@{Student}!getCreditHoursCompleted@{getCreditHoursCompleted}}
+\index{getCreditHoursCompleted@{getCreditHoursCompleted}!Student@{Student}}
+\doxysubsubsection{getCreditHoursCompleted()}
+{\footnotesize\ttfamily int Student\+::get\+Credit\+Hours\+Completed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\label{class_student_ad3e890f86fdebcd176ff614ad9aeccb1} 
+\index{Student@{Student}!getEnrollmentDate@{getEnrollmentDate}}
+\index{getEnrollmentDate@{getEnrollmentDate}!Student@{Student}}
+\doxysubsubsection{getEnrollmentDate()}
+{\footnotesize\ttfamily const \textbf{ Date} \& Student\+::get\+Enrollment\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\label{class_student_aabc22298e32cdd47976bd3d3c5033df6} 
+\index{Student@{Student}!getFirstName@{getFirstName}}
+\index{getFirstName@{getFirstName}!Student@{Student}}
+\doxysubsubsection{getFirstName()}
+{\footnotesize\ttfamily const std\+::string \& Student\+::get\+First\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\label{class_student_abb660148aeb2ace6a9a6cc1593b0b546} 
+\index{Student@{Student}!getIdentifier@{getIdentifier}}
+\index{getIdentifier@{getIdentifier}!Student@{Student}}
+\doxysubsubsection{getIdentifier()}
+{\footnotesize\ttfamily int Student\+::get\+Identifier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\label{class_student_a1e555d9d92cbf5ee319b55771c9891b9} 
+\index{Student@{Student}!getLastName@{getLastName}}
+\index{getLastName@{getLastName}!Student@{Student}}
+\doxysubsubsection{getLastName()}
+{\footnotesize\ttfamily const std\+::string \& Student\+::get\+Last\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\label{class_student_a70817fabd60719e6124e88dfb0665206} 
+\index{Student@{Student}!setAddress@{setAddress}}
+\index{setAddress@{setAddress}!Student@{Student}}
+\doxysubsubsection{setAddress()}
+{\footnotesize\ttfamily void Student\+::set\+Address (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{addr }\end{DoxyParamCaption})}
+
+\label{class_student_aa4070540a472d479786ffbe4d8581e48} 
+\index{Student@{Student}!setCreditHoursCompleted@{setCreditHoursCompleted}}
+\index{setCreditHoursCompleted@{setCreditHoursCompleted}!Student@{Student}}
+\doxysubsubsection{setCreditHoursCompleted()}
+{\footnotesize\ttfamily void Student\+::set\+Credit\+Hours\+Completed (\begin{DoxyParamCaption}\item[{int}]{credits }\end{DoxyParamCaption})}
+
+\label{class_student_aa79e70e71dafab8f16d60276e1570a9f} 
+\index{Student@{Student}!setEnrollmentDate@{setEnrollmentDate}}
+\index{setEnrollmentDate@{setEnrollmentDate}!Student@{Student}}
+\doxysubsubsection{setEnrollmentDate()}
+{\footnotesize\ttfamily void Student\+::set\+Enrollment\+Date (\begin{DoxyParamCaption}\item[{const \textbf{ Date} \&}]{date }\end{DoxyParamCaption})}
+
+\label{class_student_a8cb9cb6c04af847a54ff8bd0ca029bb9} 
+\index{Student@{Student}!setFirstName@{setFirstName}}
+\index{setFirstName@{setFirstName}!Student@{Student}}
+\doxysubsubsection{setFirstName()}
+{\footnotesize\ttfamily void Student\+::set\+First\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{first }\end{DoxyParamCaption})}
+
+\label{class_student_ab596171c655a0c5a8682e78c3db39c52} 
+\index{Student@{Student}!setIdentifier@{setIdentifier}}
+\index{setIdentifier@{setIdentifier}!Student@{Student}}
+\doxysubsubsection{setIdentifier()}
+{\footnotesize\ttfamily void Student\+::set\+Identifier (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+\label{class_student_ae72d860cb6458d873ea7291343fc8a0a} 
+\index{Student@{Student}!setLastName@{setLastName}}
+\index{setLastName@{setLastName}!Student@{Student}}
+\doxysubsubsection{setLastName()}
+{\footnotesize\ttfamily void Student\+::set\+Last\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{last }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\label{class_student_aadd1864a776093e95f449dc91906f9eb} 
+\index{Student@{Student}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Student@{Student}}
+\doxysubsubsection{operator$<$$<$}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \textbf{ Student} \&}]{student }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Output stream insertion operator for \doxyref{Student}{p.}{class_student} objects. 
+
+output a \doxyref{Student}{p.}{class_student} object to an output stream by printing attributes of the student
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & The output stream to write to \\
+\hline
+{\em student} & The \doxyref{Student}{p.}{class_student} object to output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The output stream (out) after writing the \doxyref{Student}{p.}{class_student} 
+\end{DoxyReturn}
+\label{class_student_a346086824d08147b8544ca5403748e5d} 
+\index{Student@{Student}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Student@{Student}}
+\doxysubsubsection{operator$>$$>$}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{\textbf{ Student} \&}]{student }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Input stream extraction operator for \doxyref{Student}{p.}{class_student} objects. 
+
+input a \doxyref{Student}{p.}{class_student} object from an input stream by prompting the user to enter attributes of the student
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & The input stream to read from \\
+\hline
+{\em student} & The \doxyref{Student}{p.}{class_student} object to populate with input values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The input stream (in) after reading the \doxyref{Student}{p.}{class_student} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Student.\+h}\item 
+\textbf{ Student.\+cpp}\end{DoxyCompactItemize}

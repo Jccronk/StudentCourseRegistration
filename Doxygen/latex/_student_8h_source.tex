@@ -1,0 +1,49 @@
+\doxysection{Student.\+h}
+\label{_student_8h_source}\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{//}}
+\DoxyCodeLine{00002\ \textcolor{comment}{//\ Created\ by\ Jake\ Cronk\ on\ 1/24/24.}}
+\DoxyCodeLine{00003\ \textcolor{comment}{//}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#ifndef\ STUDENTCOURSEREGISTRATION\_STUDENT\_H}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#define\ STUDENTCOURSEREGISTRATION\_STUDENT\_H}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}Date.h"{}}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }Student\ \{}
+\DoxyCodeLine{00012\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ identifier;}
+\DoxyCodeLine{00014\ \ \ \ \ std::string\ firstName;}
+\DoxyCodeLine{00015\ \ \ \ \ std::string\ lastName;}
+\DoxyCodeLine{00016\ \ \ \ \ std::string\ address;}
+\DoxyCodeLine{00017\ \ \ \ \ Date\ enrollmentDate;}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{int}\ creditHoursCompleted;}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00034\ \ \ \ \ Student(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id}\ =\ 0,\ \textcolor{keyword}{const}\ std::string\&\ first\ =\ \textcolor{stringliteral}{"{}"{}},\ \textcolor{keyword}{const}\ std::string\&\ last\ =\ \textcolor{stringliteral}{"{}"{}},\ \textcolor{keyword}{const}\ std::string\&\ addr\ =\ \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ Date\&\ date\ =\ Date(),\ \textcolor{keywordtype}{int}\ credits\ =\ 0);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{comment}{//\ Getter\ and\ Setter\ methods}}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{int}\ getIdentifier()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ setIdentifier(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ getFirstName()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{void}\ setFirstName(\textcolor{keyword}{const}\ std::string\&\ first);}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ getLastName()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ setLastName(\textcolor{keyword}{const}\ std::string\&\ last);}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ getAddress()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ setAddress(\textcolor{keyword}{const}\ std::string\&\ addr);}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keyword}{const}\ Date\&\ getEnrollmentDate()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ setEnrollmentDate(\textcolor{keyword}{const}\ Date\&\ date);}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{int}\ getCreditHoursCompleted()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ setCreditHoursCompleted(\textcolor{keywordtype}{int}\ credits);}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{comment}{//\ Input\ and\ Output\ operators}}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keyword}{friend}\ std::istream\&\ operator>>(std::istream\&\ in,\ Student\&\ student);}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keyword}{friend}\ std::ostream\&\ operator<<(std::ostream\&\ out,\ \textcolor{keyword}{const}\ Student\&\ student);}
+\DoxyCodeLine{00054\ \};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//STUDENTCOURSEREGISTRATION\_STUDENT\_H}}
+
+\end{DoxyCode}

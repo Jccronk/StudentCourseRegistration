@@ -1,0 +1,5 @@
+/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles/DateTest.dir
+/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles/StudentTest.dir
+/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles/CourseRegistrationTest.dir
+/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles/rebuild_cache.dir

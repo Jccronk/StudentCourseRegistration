@@ -1,0 +1,309 @@
+\doxysection{Date Class Reference}
+\label{class_date}\index{Date@{Date}}
+
+
+Class representing a calendar date.  
+
+
+
+
+{\ttfamily \#include $<$Date.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Date} (int day=1, int month=1, int year=2000)
+\begin{DoxyCompactList}\small\item\em Construct a new \doxyref{Date}{p.}{class_date} object with default values or provided values. \end{DoxyCompactList}\item 
+int \textbf{ get\+Day} () const
+\begin{DoxyCompactList}\small\item\em Get the Day of the month. \end{DoxyCompactList}\item 
+int \textbf{ get\+Month} () const
+\begin{DoxyCompactList}\small\item\em Get the Month of the year. \end{DoxyCompactList}\item 
+int \textbf{ get\+Year} () const
+\begin{DoxyCompactList}\small\item\em Get the Year. \end{DoxyCompactList}\item 
+void \textbf{ set\+Day} (int day)
+\begin{DoxyCompactList}\small\item\em Set the Day of the month. \end{DoxyCompactList}\item 
+void \textbf{ set\+Month} (int month)
+\begin{DoxyCompactList}\small\item\em Set the Month of the year. \end{DoxyCompactList}\item 
+void \textbf{ set\+Year} (int year)
+\begin{DoxyCompactList}\small\item\em Set the Year. \end{DoxyCompactList}\item 
+bool \textbf{ operator$<$} (const \textbf{ Date} \&other) const
+\begin{DoxyCompactList}\small\item\em Compare this \doxyref{Date}{p.}{class_date} with another \doxyref{Date}{p.}{class_date} to determine if it is earlier. \end{DoxyCompactList}\item 
+bool \textbf{ operator==} (const \textbf{ Date} \&other) const
+\begin{DoxyCompactList}\small\item\em Compare two \doxyref{Date}{p.}{class_date} objects for equality. This operator compares two \doxyref{Date}{p.}{class_date} objects and returns true if they are equal. \end{DoxyCompactList}\item 
+bool \textbf{ operator$>$} (const \textbf{ Date} \&other) const
+\begin{DoxyCompactList}\small\item\em Compare two \doxyref{Date}{p.}{class_date} objects for greater-\/than comparison. This operator compares two \doxyref{Date}{p.}{class_date} objects and returns true if the current \doxyref{Date}{p.}{class_date} is greater than the other \doxyref{Date}{p.}{class_date}, based on the year, month, and day. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::istream \& \textbf{ operator$>$$>$} (std\+::istream \&in, \textbf{ Date} \&date)
+\begin{DoxyCompactList}\small\item\em Input stream extraction operator for \doxyref{Date}{p.}{class_date} objects. \end{DoxyCompactList}\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&out, const \textbf{ Date} \&date)
+\begin{DoxyCompactList}\small\item\em Output stream insertion operator for \doxyref{Date}{p.}{class_date} objects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing a calendar date. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_date_aed583a4969965fc6e3664f88feb0325b} 
+\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\doxysubsubsection{Date()}
+{\footnotesize\ttfamily Date\+::\+Date (\begin{DoxyParamCaption}\item[{int}]{day = {\ttfamily 1},  }\item[{int}]{month = {\ttfamily 1},  }\item[{int}]{year = {\ttfamily 2000} }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxyref{Date}{p.}{class_date} object with default values or provided values. 
+
+Constructor for the \doxyref{Date}{p.}{class_date} class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em day} & The day of the month (default is 1). \\
+\hline
+{\em month} & The month of the year (default is 1). \\
+\hline
+{\em year} & The year (default is 2000).\\
+\hline
+\end{DoxyParams}
+This constructor initializes a \doxyref{Date}{p.}{class_date} object with the specified day, month, and year.
+
+
+\begin{DoxyParams}{Parameters}
+{\em day} & The day of the date. \\
+\hline
+{\em month} & The month of the date. \\
+\hline
+{\em year} & The year of the date. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_date_a0f253815240e70f4c39cb93cc68bd3f4} 
+\index{Date@{Date}!getDay@{getDay}}
+\index{getDay@{getDay}!Date@{Date}}
+\doxysubsubsection{getDay()}
+{\footnotesize\ttfamily int Date\+::get\+Day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Day of the month. 
+
+\begin{DoxyReturn}{Returns}
+int Day of the month. 
+\end{DoxyReturn}
+\label{class_date_a332f6e3a2f6a40d73742b6dab7be0f64} 
+\index{Date@{Date}!getMonth@{getMonth}}
+\index{getMonth@{getMonth}!Date@{Date}}
+\doxysubsubsection{getMonth()}
+{\footnotesize\ttfamily int Date\+::get\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Month of the year. 
+
+\begin{DoxyReturn}{Returns}
+int Month of the year. 
+\end{DoxyReturn}
+\label{class_date_a8b0869f34c2b38d108ab83ee2e770e5d} 
+\index{Date@{Date}!getYear@{getYear}}
+\index{getYear@{getYear}!Date@{Date}}
+\doxysubsubsection{getYear()}
+{\footnotesize\ttfamily int Date\+::get\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Year. 
+
+\begin{DoxyReturn}{Returns}
+int Year. 
+\end{DoxyReturn}
+\label{class_date_a56469dbfb6a0c32326330796cb316881} 
+\index{Date@{Date}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Date@{Date}}
+\doxysubsubsection{operator$<$()}
+{\footnotesize\ttfamily bool Date\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \textbf{ Date} \&}]{other }\end{DoxyParamCaption}) const}
+
+
+
+Compare this \doxyref{Date}{p.}{class_date} with another \doxyref{Date}{p.}{class_date} to determine if it is earlier. 
+
+Compare two \doxyref{Date}{p.}{class_date} objects for less-\/than comparison.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The other \doxyref{Date}{p.}{class_date} to compare to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True if this \doxyref{Date}{p.}{class_date} is earlier than the other \doxyref{Date}{p.}{class_date}, false otherwise.
+\end{DoxyReturn}
+This operator compares two \doxyref{Date}{p.}{class_date} objects and returns true if the current \doxyref{Date}{p.}{class_date} is less than the other \doxyref{Date}{p.}{class_date}, based on the year, month, and day components.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The \doxyref{Date}{p.}{class_date} object to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the current \doxyref{Date}{p.}{class_date} is less than the other \doxyref{Date}{p.}{class_date}; false otherwise. 
+\end{DoxyReturn}
+\label{class_date_a3b103cc8257d3055aedb519fff343503} 
+\index{Date@{Date}!operator==@{operator==}}
+\index{operator==@{operator==}!Date@{Date}}
+\doxysubsubsection{operator==()}
+{\footnotesize\ttfamily bool Date\+::operator== (\begin{DoxyParamCaption}\item[{const \textbf{ Date} \&}]{other }\end{DoxyParamCaption}) const}
+
+
+
+Compare two \doxyref{Date}{p.}{class_date} objects for equality. This operator compares two \doxyref{Date}{p.}{class_date} objects and returns true if they are equal. 
+
+Compare two \doxyref{Date}{p.}{class_date} objects for equality.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The \doxyref{Date}{p.}{class_date} object to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the two \doxyref{Date}{p.}{class_date} objects are equal and false otherwise.
+\end{DoxyReturn}
+This operator compares two \doxyref{Date}{p.}{class_date} objects and returns true if they are equal
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The \doxyref{Date}{p.}{class_date} object to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the two \doxyref{Date}{p.}{class_date} objects are equal and false otherwise 
+\end{DoxyReturn}
+\label{class_date_ab2943ef426612046e084e2d885c5fed4} 
+\index{Date@{Date}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Date@{Date}}
+\doxysubsubsection{operator$>$()}
+{\footnotesize\ttfamily bool Date\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \textbf{ Date} \&}]{other }\end{DoxyParamCaption}) const}
+
+
+
+Compare two \doxyref{Date}{p.}{class_date} objects for greater-\/than comparison. This operator compares two \doxyref{Date}{p.}{class_date} objects and returns true if the current \doxyref{Date}{p.}{class_date} is greater than the other \doxyref{Date}{p.}{class_date}, based on the year, month, and day. 
+
+Compare two \doxyref{Date}{p.}{class_date} objects for greater-\/than comparison.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The \doxyref{Date}{p.}{class_date} object to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the current \doxyref{Date}{p.}{class_date} is greater than the other \doxyref{Date}{p.}{class_date} and false otherwise.
+\end{DoxyReturn}
+This operator compares two \doxyref{Date}{p.}{class_date} objects and returns true if the current \doxyref{Date}{p.}{class_date} is greater than the other \doxyref{Date}{p.}{class_date}, based on the year, month, and day
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The \doxyref{Date}{p.}{class_date} object to compare with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the current \doxyref{Date}{p.}{class_date} is greater than the other \doxyref{Date}{p.}{class_date} and false otherwise 
+\end{DoxyReturn}
+\label{class_date_a2f97b9d1ac5ef0ef6b6cab3335c5303d} 
+\index{Date@{Date}!setDay@{setDay}}
+\index{setDay@{setDay}!Date@{Date}}
+\doxysubsubsection{setDay()}
+{\footnotesize\ttfamily void Date\+::set\+Day (\begin{DoxyParamCaption}\item[{int}]{day }\end{DoxyParamCaption})}
+
+
+
+Set the Day of the month. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em day} & Day of the month. \\
+\hline
+\end{DoxyParams}
+\label{class_date_a23aa56014dd581d691607df5d4474f64} 
+\index{Date@{Date}!setMonth@{setMonth}}
+\index{setMonth@{setMonth}!Date@{Date}}
+\doxysubsubsection{setMonth()}
+{\footnotesize\ttfamily void Date\+::set\+Month (\begin{DoxyParamCaption}\item[{int}]{month }\end{DoxyParamCaption})}
+
+
+
+Set the Month of the year. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em month} & Month of the year. \\
+\hline
+\end{DoxyParams}
+\label{class_date_a895c4ae9868e43577cf59d9c679d7a71} 
+\index{Date@{Date}!setYear@{setYear}}
+\index{setYear@{setYear}!Date@{Date}}
+\doxysubsubsection{setYear()}
+{\footnotesize\ttfamily void Date\+::set\+Year (\begin{DoxyParamCaption}\item[{int}]{year }\end{DoxyParamCaption})}
+
+
+
+Set the Year. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em year} & Year. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\label{class_date_ada4f8712609249fde898198589dc73e5} 
+\index{Date@{Date}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Date@{Date}}
+\doxysubsubsection{operator$<$$<$}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \textbf{ Date} \&}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Output stream insertion operator for \doxyref{Date}{p.}{class_date} objects. 
+
+output a \doxyref{Date}{p.}{class_date} object to an output stream in the format "{}month/day/year"{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & The output stream to write to \\
+\hline
+{\em date} & The \doxyref{Date}{p.}{class_date} object to output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The output stream (out) after writing the \doxyref{Date}{p.}{class_date} 
+\end{DoxyReturn}
+\label{class_date_a4d60fae6ffff4d027e1e987183c4cdbc} 
+\index{Date@{Date}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Date@{Date}}
+\doxysubsubsection{operator$>$$>$}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{\textbf{ Date} \&}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Input stream extraction operator for \doxyref{Date}{p.}{class_date} objects. 
+
+input a \doxyref{Date}{p.}{class_date} object from an input stream. prompts the user to enter the day, month, and year of the date
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & The input stream to read from \\
+\hline
+{\em date} & The \doxyref{Date}{p.}{class_date} object to populate with input values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The input stream (in) after reading the \doxyref{Date}{p.}{class_date} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Date.\+h}\item 
+\textbf{ Date.\+cpp}\end{DoxyCompactItemize}

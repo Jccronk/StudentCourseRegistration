@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_main_test_driver_8cpp" kind="file" language="C++">
+    <compoundname>MainTestDriver.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MainTestDriver.cpp</label>
+        <link refid="_main_test_driver_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_main_test_driver_8cpp_1ad6f0f19f6331bfc6a39a456592c09f5f" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testDateClass</definition>
+        <argsstring>()</argsstring>
+        <name>testDateClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainTestDriver.cpp" line="11" column="13" bodyfile="DateDriver.cpp" bodystart="5" bodyend="23" declfile="MainTestDriver.cpp" declline="11" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="_main_test_driver_8cpp_1a8f8e14fa236763d905601203364b229a" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testStudentClass</definition>
+        <argsstring>()</argsstring>
+        <name>testStudentClass</name>
+        <briefdescription>
+<para>Tests the <ref refid="class_student" kindref="compound">Student</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function asks the user to input the number of students and then iterates to collect information for each student. It creates <ref refid="class_student" kindref="compound">Student</ref> objects based on user input and writes the student data to a file named &apos;student_data.txt&apos;. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainTestDriver.cpp" line="14" column="13" bodyfile="StudentDriver.cpp" bodystart="12" bodyend="31" declfile="MainTestDriver.cpp" declline="14" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="_main_test_driver_8cpp_1a4655c138b05e154367838f33bd60a958" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testCourseRegistration</definition>
+        <argsstring>()</argsstring>
+        <name>testCourseRegistration</name>
+        <briefdescription>
+<para>Tests the <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>prompts the user to enter the number of course registrations and then collects information for each . It creates <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> objects based on user input and writes the registration data to a file named &apos;course_registration_data.txt&apos;. The user can end the input process for course IDs by pressing Enter without typing </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainTestDriver.cpp" line="17" column="13" bodyfile="CourseRegistrationDriver.cpp" bodystart="16" bodyend="55" declfile="MainTestDriver.cpp" declline="17" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="_main_test_driver_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+<para>Main function for running tests. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The main function calls driver functions for the <ref refid="class_date" kindref="compound">Date</ref>, <ref refid="class_student" kindref="compound">Student</ref>, and <ref refid="class_course_registration" kindref="compound">CourseRegistration</ref> classes</para>
+<para><simplesect kind="return"><para>int Returns 0 upon successful completion. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainTestDriver.cpp" line="26" column="5" bodyfile="MainTestDriver.cpp" bodystart="26" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_main_test_driver_8cpp_1ad6f0f19f6331bfc6a39a456592c09f5f" kindref="member">testDateClass</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_main_test_driver_8cpp_1a8f8e14fa236763d905601203364b229a" kindref="member">testStudentClass</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_main_test_driver_8cpp_1a4655c138b05e154367838f33bd60a958" kindref="member">testCourseRegistration</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_main_test_driver_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;Testing<sp/>Date<sp/>class:&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>testDateClass();<sp/>//<sp/>Run<sp/>Date<sp/>class<sp/>tests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nTesting<sp/>Student<sp/>class:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_main_test_driver_8cpp_1a8f8e14fa236763d905601203364b229a" kindref="member">testStudentClass</ref>();<sp/></highlight><highlight class="comment">//<sp/>Run<sp/>Student<sp/>class<sp/>tests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nTesting<sp/>CourseRegistration<sp/>class:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_main_test_driver_8cpp_1a4655c138b05e154367838f33bd60a958" kindref="member">testCourseRegistration</ref>();<sp/></highlight><highlight class="comment">//<sp/>Run<sp/>CourseRegistration<sp/>class<sp/>tests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MainTestDriver.cpp"/>
+  </compounddef>
+</doxygen>

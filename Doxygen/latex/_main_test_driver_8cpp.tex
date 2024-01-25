@@ -1,0 +1,61 @@
+\doxysection{Main\+Test\+Driver.\+cpp File Reference}
+\label{_main_test_driver_8cpp}\index{MainTestDriver.cpp@{MainTestDriver.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for Main\+Test\+Driver.\+cpp\+:
+% FIG 0
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ test\+Date\+Class} ()
+\item 
+void \textbf{ test\+Student\+Class} ()
+\begin{DoxyCompactList}\small\item\em Tests the \doxyref{Student}{p.}{class_student} class. \end{DoxyCompactList}\item 
+void \textbf{ test\+Course\+Registration} ()
+\begin{DoxyCompactList}\small\item\em Tests the \doxyref{Course\+Registration}{p.}{class_course_registration} class. \end{DoxyCompactList}\item 
+int \textbf{ main} ()
+\begin{DoxyCompactList}\small\item\em Main function for running tests. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\label{_main_test_driver_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{MainTestDriver.cpp@{MainTestDriver.cpp}!main@{main}}
+\index{main@{main}!MainTestDriver.cpp@{MainTestDriver.cpp}}
+\doxysubsubsection{main()}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main function for running tests. 
+
+The main function calls driver functions for the \doxyref{Date}{p.}{class_date}, \doxyref{Student}{p.}{class_student}, and \doxyref{Course\+Registration}{p.}{class_course_registration} classes
+
+\begin{DoxyReturn}{Returns}
+int Returns 0 upon successful completion. 
+\end{DoxyReturn}
+\label{_main_test_driver_8cpp_a4655c138b05e154367838f33bd60a958} 
+\index{MainTestDriver.cpp@{MainTestDriver.cpp}!testCourseRegistration@{testCourseRegistration}}
+\index{testCourseRegistration@{testCourseRegistration}!MainTestDriver.cpp@{MainTestDriver.cpp}}
+\doxysubsubsection{testCourseRegistration()}
+{\footnotesize\ttfamily void test\+Course\+Registration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Tests the \doxyref{Course\+Registration}{p.}{class_course_registration} class. 
+
+prompts the user to enter the number of course registrations and then collects information for each . It creates \doxyref{Course\+Registration}{p.}{class_course_registration} objects based on user input and writes the registration data to a file named \textquotesingle{}course\+\_\+registration\+\_\+data.\+txt\textquotesingle{}. The user can end the input process for course IDs by pressing Enter without typing \label{_main_test_driver_8cpp_ad6f0f19f6331bfc6a39a456592c09f5f} 
+\index{MainTestDriver.cpp@{MainTestDriver.cpp}!testDateClass@{testDateClass}}
+\index{testDateClass@{testDateClass}!MainTestDriver.cpp@{MainTestDriver.cpp}}
+\doxysubsubsection{testDateClass()}
+{\footnotesize\ttfamily void test\+Date\+Class (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+\label{_main_test_driver_8cpp_a8f8e14fa236763d905601203364b229a} 
+\index{MainTestDriver.cpp@{MainTestDriver.cpp}!testStudentClass@{testStudentClass}}
+\index{testStudentClass@{testStudentClass}!MainTestDriver.cpp@{MainTestDriver.cpp}}
+\doxysubsubsection{testStudentClass()}
+{\footnotesize\ttfamily void test\+Student\+Class (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Tests the \doxyref{Student}{p.}{class_student} class. 
+
+This function asks the user to input the number of students and then iterates to collect information for each student. It creates \doxyref{Student}{p.}{class_student} objects based on user input and writes the student data to a file named \textquotesingle{}student\+\_\+data.\+txt\textquotesingle{}. 

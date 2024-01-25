@@ -1,0 +1,59 @@
+\doxysection{Date.\+cpp File Reference}
+\label{_date_8cpp}\index{Date.cpp@{Date.cpp}}
+{\ttfamily \#include "{}Date.\+h"{}}\newline
+Include dependency graph for Date.\+cpp\+:
+% FIG 0
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::istream \& \textbf{ operator$>$$>$} (std\+::istream \&in, \textbf{ Date} \&date)
+\begin{DoxyCompactList}\small\item\em Input stream extraction operator for \doxyref{Date}{p.}{class_date} objects. \end{DoxyCompactList}\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&out, const \textbf{ Date} \&date)
+\begin{DoxyCompactList}\small\item\em Output stream insertion operator for \doxyref{Date}{p.}{class_date} objects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\label{_date_8cpp_ada4f8712609249fde898198589dc73e5} 
+\index{Date.cpp@{Date.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Date.cpp@{Date.cpp}}
+\doxysubsubsection{operator$<$$<$()}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \textbf{ Date} \&}]{date }\end{DoxyParamCaption})}
+
+
+
+Output stream insertion operator for \doxyref{Date}{p.}{class_date} objects. 
+
+output a \doxyref{Date}{p.}{class_date} object to an output stream in the format "{}month/day/year"{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & The output stream to write to \\
+\hline
+{\em date} & The \doxyref{Date}{p.}{class_date} object to output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The output stream (out) after writing the \doxyref{Date}{p.}{class_date} 
+\end{DoxyReturn}
+\label{_date_8cpp_a4d60fae6ffff4d027e1e987183c4cdbc} 
+\index{Date.cpp@{Date.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Date.cpp@{Date.cpp}}
+\doxysubsubsection{operator$>$$>$()}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{\textbf{ Date} \&}]{date }\end{DoxyParamCaption})}
+
+
+
+Input stream extraction operator for \doxyref{Date}{p.}{class_date} objects. 
+
+input a \doxyref{Date}{p.}{class_date} object from an input stream. prompts the user to enter the day, month, and year of the date
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & The input stream to read from \\
+\hline
+{\em date} & The \doxyref{Date}{p.}{class_date} object to populate with input values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The input stream (in) after reading the \doxyref{Date}{p.}{class_date} 
+\end{DoxyReturn}

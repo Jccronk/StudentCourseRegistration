@@ -1,0 +1,25 @@
+# ninja log v5
+1	765	1706226009681288268	CMakeFiles/DateTest.dir/DateDriver.cpp.o	c9bbbcf8cdd23646
+4	564	1706217649768510113	CMakeFiles/StudentCourseRegistration.dir/StudentTest.cpp.o	8586fab3004be3c9
+3	528	1706217649727659648	CMakeFiles/StudentCourseRegistration.dir/DateTest.cpp.o	2cd3b59694c2a63a
+809	894	1706226009813503888	CourseRegistrationTest	323690467a521341
+765	894	1706226009813503638	DateTest	53c214636c6e34ae
+0	765	1706226009681811295	CMakeFiles/DateTest.dir/Date.cpp.o	694a7d1bbc6422cc
+0	50	1706226421456773876	build.ninja	835fa981f09819b7
+5	3635	1706225470661046537	CMakeFiles/StudentCourseRegistration.dir/MainTestDriver.cpp.o	b5fed24f6c84890
+2	577	1706225767335298510	CMakeFiles/StudentCourseRegistration.dir/CourseRegistrationDriver.cpp.o	fc90faa206fd2bcd
+1	770	1706226009689743330	CMakeFiles/StudentTest.dir/Student.cpp.o	116f85b45183ae15
+1	767	1706226009683662620	CMakeFiles/CourseRegistrationTest.dir/CourseRegistration.cpp.o	578d9579b447c0e3
+1	718	1706147689314888710	CMakeFiles/StudentCourseRegistration.dir/TestDriver.cpp.o	642f47079f9c521c
+3	3591	1706225470617353579	CMakeFiles/StudentCourseRegistration.dir/Date.cpp.o	dc242b9b3ef21e4c
+2	809	1706226009729078138	CMakeFiles/CourseRegistrationTest.dir/CourseRegistrationDriver.cpp.o	ad8809596dc714e1
+0	716	1706147689314882627	CMakeFiles/StudentCourseRegistration.dir/main.cpp.o	87fbcfc2817bba65
+2	559	1706226135315261044	CMakeFiles/StudentTest.dir/StudentDriver.cpp.o	42ee077a79489818
+559	657	1706226135415121208	StudentTest	5bd9fe312718b6b9
+5	3568	1706225470592241839	CMakeFiles/StudentCourseRegistration.dir/CourseRegistration.cpp.o	6279407bbe69e1a2
+3	622	1706213378761148658	CMakeFiles/StudentCourseRegistration.dir/CourseRegistrationTest.cpp.o	a984a13045d7ff07
+4	3559	1706225470583025477	CMakeFiles/StudentCourseRegistration.dir/Student.cpp.o	383b29a3adfe78e5
+5	3632	1706225470657851254	CMakeFiles/StudentCourseRegistration.dir/StudentDriver.cpp.o	e07b53bd44144c79
+10	532	1706225797207583227	CMakeFiles/StudentCourseRegistration.dir/DateDriver.cpp.o	65706c75bb1c1864
+9	536	1706226095647909726	CMakeFiles/StudentTest.dir/Date.cpp.o	fa6a7da3ec6b801b
+0	51	1706226421456773876	build.ninja	835fa981f09819b7

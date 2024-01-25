@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_date" kind="class" language="C++" prot="public">
+    <compoundname>Date</compoundname>
+    <includes refid="_date_8h" local="no">Date.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_date_1a5b192adcabf2b2871e3f0b76c1ec1601" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Date::day</definition>
+        <argsstring></argsstring>
+        <name>day</name>
+        <qualifiedname>Date::day</qualifiedname>
+        <briefdescription>
+<para>Day of the month. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="15" column="9" bodyfile="Date.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_date_1a533843e07c6ac8d19fee9b16f5336ba2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Date::month</definition>
+        <argsstring></argsstring>
+        <name>month</name>
+        <qualifiedname>Date::month</qualifiedname>
+        <briefdescription>
+<para>Month of the year. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="16" column="9" bodyfile="Date.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_date_1a3eeced2ed56bc95d56782b9e738db8ea" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Date::year</definition>
+        <argsstring></argsstring>
+        <name>year</name>
+        <qualifiedname>Date::year</qualifiedname>
+        <briefdescription>
+<para>Year. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="17" column="9" bodyfile="Date.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_date_1aed583a4969965fc6e3664f88feb0325b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Date::Date</definition>
+        <argsstring>(int day=1, int month=1, int year=2000)</argsstring>
+        <name>Date</name>
+        <qualifiedname>Date::Date</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+          <defval>2000</defval>
+        </param>
+        <briefdescription>
+<para>Construct a new <ref refid="class_date" kindref="compound">Date</ref> object with default values or provided values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for the <ref refid="class_date" kindref="compound">Date</ref> class.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The day of the month (default is 1). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The month of the year (default is 1). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The year (default is 2000).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+This constructor initializes a <ref refid="class_date" kindref="compound">Date</ref> object with the specified day, month, and year.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The day of the date. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The month of the date. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The year of the date. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="26" column="5" bodyfile="Date.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a0f253815240e70f4c39cb93cc68bd3f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Date::getDay</definition>
+        <argsstring>() const</argsstring>
+        <name>getDay</name>
+        <qualifiedname>Date::getDay</qualifiedname>
+        <briefdescription>
+<para>Get the Day of the month. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int Day of the month. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="32" column="9" bodyfile="Date.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a332f6e3a2f6a40d73742b6dab7be0f64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Date::getMonth</definition>
+        <argsstring>() const</argsstring>
+        <name>getMonth</name>
+        <qualifiedname>Date::getMonth</qualifiedname>
+        <briefdescription>
+<para>Get the Month of the year. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int Month of the year. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="38" column="9" bodyfile="Date.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a8b0869f34c2b38d108ab83ee2e770e5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Date::getYear</definition>
+        <argsstring>() const</argsstring>
+        <name>getYear</name>
+        <qualifiedname>Date::getYear</qualifiedname>
+        <briefdescription>
+<para>Get the Year. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int Year. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="44" column="9" bodyfile="Date.cpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a2f97b9d1ac5ef0ef6b6cab3335c5303d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Date::setDay</definition>
+        <argsstring>(int day)</argsstring>
+        <name>setDay</name>
+        <qualifiedname>Date::setDay</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+<para>Set the Day of the month. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Day of the month. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="50" column="10" bodyfile="Date.cpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a23aa56014dd581d691607df5d4474f64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Date::setMonth</definition>
+        <argsstring>(int month)</argsstring>
+        <name>setMonth</name>
+        <qualifiedname>Date::setMonth</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+<para>Set the Month of the year. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Month of the year. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="56" column="10" bodyfile="Date.cpp" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a895c4ae9868e43577cf59d9c679d7a71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Date::setYear</definition>
+        <argsstring>(int year)</argsstring>
+        <name>setYear</name>
+        <qualifiedname>Date::setYear</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+<para>Set the Year. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Year. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="62" column="10" bodyfile="Date.cpp" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a56469dbfb6a0c32326330796cb316881" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Date::operator&lt;</definition>
+        <argsstring>(const Date &amp;other) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>Date::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="class_date" kindref="compound">Date</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Compare this <ref refid="class_date" kindref="compound">Date</ref> with another <ref refid="class_date" kindref="compound">Date</ref> to determine if it is earlier. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Compare two <ref refid="class_date" kindref="compound">Date</ref> objects for less-than comparison.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The other <ref refid="class_date" kindref="compound">Date</ref> to compare to. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool True if this <ref refid="class_date" kindref="compound">Date</ref> is earlier than the other <ref refid="class_date" kindref="compound">Date</ref>, false otherwise.</para>
+</simplesect>
+This operator compares two <ref refid="class_date" kindref="compound">Date</ref> objects and returns true if the current <ref refid="class_date" kindref="compound">Date</ref> is less than the other <ref refid="class_date" kindref="compound">Date</ref>, based on the year, month, and day components.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_date" kindref="compound">Date</ref> object to compare with. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the current <ref refid="class_date" kindref="compound">Date</ref> is less than the other <ref refid="class_date" kindref="compound">Date</ref>; false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="69" column="5" bodyfile="Date.cpp" bodystart="80" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1a3b103cc8257d3055aedb519fff343503" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Date::operator==</definition>
+        <argsstring>(const Date &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Date::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_date" kindref="compound">Date</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Compare two <ref refid="class_date" kindref="compound">Date</ref> objects for equality. This operator compares two <ref refid="class_date" kindref="compound">Date</ref> objects and returns true if they are equal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Compare two <ref refid="class_date" kindref="compound">Date</ref> objects for equality.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_date" kindref="compound">Date</ref> object to compare with. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the two <ref refid="class_date" kindref="compound">Date</ref> objects are equal and false otherwise.</para>
+</simplesect>
+This operator compares two <ref refid="class_date" kindref="compound">Date</ref> objects and returns true if they are equal</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_date" kindref="compound">Date</ref> object to compare with. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the two <ref refid="class_date" kindref="compound">Date</ref> objects are equal and false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="77" column="10" bodyfile="Date.cpp" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_date_1ab2943ef426612046e084e2d885c5fed4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Date::operator&gt;</definition>
+        <argsstring>(const Date &amp;other) const</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>Date::operator&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="class_date" kindref="compound">Date</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Compare two <ref refid="class_date" kindref="compound">Date</ref> objects for greater-than comparison. This operator compares two <ref refid="class_date" kindref="compound">Date</ref> objects and returns true if the current <ref refid="class_date" kindref="compound">Date</ref> is greater than the other <ref refid="class_date" kindref="compound">Date</ref>, based on the year, month, and day. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Compare two <ref refid="class_date" kindref="compound">Date</ref> objects for greater-than comparison.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_date" kindref="compound">Date</ref> object to compare with. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the current <ref refid="class_date" kindref="compound">Date</ref> is greater than the other <ref refid="class_date" kindref="compound">Date</ref> and false otherwise.</para>
+</simplesect>
+This operator compares two <ref refid="class_date" kindref="compound">Date</ref> objects and returns true if the current <ref refid="class_date" kindref="compound">Date</ref> is greater than the other <ref refid="class_date" kindref="compound">Date</ref>, based on the year, month, and day</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_date" kindref="compound">Date</ref> object to compare with </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the current <ref refid="class_date" kindref="compound">Date</ref> is greater than the other <ref refid="class_date" kindref="compound">Date</ref> and false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="86" column="10" bodyfile="Date.cpp" bodystart="114" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_date_1a4d60fae6ffff4d027e1e987183c4cdbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;in, Date &amp;date)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>Date::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type><ref refid="class_date" kindref="compound">Date</ref> &amp;</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>Input stream extraction operator for <ref refid="class_date" kindref="compound">Date</ref> objects. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>input a <ref refid="class_date" kindref="compound">Date</ref> object from an input stream. prompts the user to enter the day, month, and year of the date</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input stream to read from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_date" kindref="compound">Date</ref> object to populate with input values </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The input stream (in) after reading the <ref refid="class_date" kindref="compound">Date</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="88" column="25" bodyfile="Date.cpp" bodystart="129" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_date_1ada4f8712609249fde898198589dc73e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;out, const Date &amp;date)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>Date::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_date" kindref="compound">Date</ref> &amp;</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>Output stream insertion operator for <ref refid="class_date" kindref="compound">Date</ref> objects. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>output a <ref refid="class_date" kindref="compound">Date</ref> object to an output stream in the format &quot;month/day/year&quot;</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_date" kindref="compound">Date</ref> object to output </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The output stream (out) after writing the <ref refid="class_date" kindref="compound">Date</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Date.h" line="90" column="12" bodyfile="Date.cpp" bodystart="157" bodyend="160"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class representing a calendar date. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Date.h" line="13" column="1" bodyfile="Date.h" bodystart="13" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_date_1aed583a4969965fc6e3664f88feb0325b" prot="public" virt="non-virtual"><scope>Date</scope><name>Date</name></member>
+      <member refid="class_date_1a5b192adcabf2b2871e3f0b76c1ec1601" prot="private" virt="non-virtual"><scope>Date</scope><name>day</name></member>
+      <member refid="class_date_1a0f253815240e70f4c39cb93cc68bd3f4" prot="public" virt="non-virtual"><scope>Date</scope><name>getDay</name></member>
+      <member refid="class_date_1a332f6e3a2f6a40d73742b6dab7be0f64" prot="public" virt="non-virtual"><scope>Date</scope><name>getMonth</name></member>
+      <member refid="class_date_1a8b0869f34c2b38d108ab83ee2e770e5d" prot="public" virt="non-virtual"><scope>Date</scope><name>getYear</name></member>
+      <member refid="class_date_1a533843e07c6ac8d19fee9b16f5336ba2" prot="private" virt="non-virtual"><scope>Date</scope><name>month</name></member>
+      <member refid="class_date_1a56469dbfb6a0c32326330796cb316881" prot="public" virt="non-virtual"><scope>Date</scope><name>operator&lt;</name></member>
+      <member refid="class_date_1ada4f8712609249fde898198589dc73e5" prot="public" virt="non-virtual"><scope>Date</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_date_1a3b103cc8257d3055aedb519fff343503" prot="public" virt="non-virtual"><scope>Date</scope><name>operator==</name></member>
+      <member refid="class_date_1ab2943ef426612046e084e2d885c5fed4" prot="public" virt="non-virtual"><scope>Date</scope><name>operator&gt;</name></member>
+      <member refid="class_date_1a4d60fae6ffff4d027e1e987183c4cdbc" prot="public" virt="non-virtual"><scope>Date</scope><name>operator&gt;&gt;</name></member>
+      <member refid="class_date_1a2f97b9d1ac5ef0ef6b6cab3335c5303d" prot="public" virt="non-virtual"><scope>Date</scope><name>setDay</name></member>
+      <member refid="class_date_1a23aa56014dd581d691607df5d4474f64" prot="public" virt="non-virtual"><scope>Date</scope><name>setMonth</name></member>
+      <member refid="class_date_1a895c4ae9868e43577cf59d9c679d7a71" prot="public" virt="non-virtual"><scope>Date</scope><name>setYear</name></member>
+      <member refid="class_date_1a3eeced2ed56bc95d56782b9e738db8ea" prot="private" virt="non-virtual"><scope>Date</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
