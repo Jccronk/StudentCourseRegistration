@@ -5,6 +5,8 @@
 
 #include <iostream>
 #include <string>
+#include "Date.h"
+#include <limits>
 
 /**
  * @brief Class representing a course registration record.

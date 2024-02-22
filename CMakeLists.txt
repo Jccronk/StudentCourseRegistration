@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(DateTest Date.cpp DateDriver.cpp)
 
 # Executable for StudentDriver.cpp
-add_executable(StudentTest Student.cpp StudentDriver.cpp Date.cpp)
+add_executable(StudentTest Student.cpp Date.cpp StudentDriver.cpp)
 
 # Executable for CourseRegistrationDriver.cpp
 add_executable(CourseRegistrationTest CourseRegistration.cpp CourseRegistrationDriver.cpp)

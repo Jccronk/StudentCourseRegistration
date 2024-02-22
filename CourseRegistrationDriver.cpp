@@ -11,6 +11,7 @@
 #include <iostream>
 #include <fstream> // Include the file stream library
 #include "CourseRegistration.h"
+#include <limits>
 
 int main() {
     int numRegistrations;

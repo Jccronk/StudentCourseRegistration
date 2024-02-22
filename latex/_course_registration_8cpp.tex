@@ -1,0 +1,75 @@
+\doxysection{Course\+Registration.\+cpp File Reference}
+\hypertarget{_course_registration_8cpp}{}\label{_course_registration_8cpp}\index{CourseRegistration.cpp@{CourseRegistration.cpp}}
+
+
+Contains the \doxylink{class_course_registration}{Course\+Registration} class and related functions for course registration management.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include "{}Date.\+h"{}}\newline
+{\ttfamily \#include $<$limits$>$}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_course_registration}{Course\+Registration}}
+\begin{DoxyCompactList}\small\item\em Class representing a course registration record. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::istream \& \mbox{\hyperlink{_course_registration_8cpp_ae855faebf1c97a76db0a892fb7c5ff8f}{operator$>$$>$}} (std\+::istream \&input, \mbox{\hyperlink{class_course_registration}{Course\+Registration}} \&course\+Reg)
+\begin{DoxyCompactList}\small\item\em Input stream extraction operator for \doxylink{class_course_registration}{Course\+Registration} objects. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{_course_registration_8cpp_a270f9386338b844ff616dd3df44baf78}{operator$<$$<$}} (std\+::ostream \&output, const \mbox{\hyperlink{class_course_registration}{Course\+Registration}} \&course\+Reg)
+\begin{DoxyCompactList}\small\item\em Output stream insertion operator for \doxylink{class_course_registration}{Course\+Registration} objects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contains the \doxylink{class_course_registration}{Course\+Registration} class and related functions for course registration management. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_course_registration_8cpp_a270f9386338b844ff616dd3df44baf78}\label{_course_registration_8cpp_a270f9386338b844ff616dd3df44baf78} 
+\index{CourseRegistration.cpp@{CourseRegistration.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!CourseRegistration.cpp@{CourseRegistration.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{output,  }\item[{const \mbox{\hyperlink{class_course_registration}{Course\+Registration}} \&}]{course\+Reg }\end{DoxyParamCaption})}
+
+
+
+Output stream insertion operator for \doxylink{class_course_registration}{Course\+Registration} objects. 
+
+output a \doxylink{class_course_registration}{Course\+Registration} object to an output stream by printing course registration information
+
+
+\begin{DoxyParams}{Parameters}
+{\em output} & The output stream to write to \\
+\hline
+{\em course\+Reg} & The \doxylink{class_course_registration}{Course\+Registration} object to output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The output stream (output) after writing the \doxylink{class_course_registration}{Course\+Registration} 
+\end{DoxyReturn}
+\Hypertarget{_course_registration_8cpp_ae855faebf1c97a76db0a892fb7c5ff8f}\label{_course_registration_8cpp_ae855faebf1c97a76db0a892fb7c5ff8f} 
+\index{CourseRegistration.cpp@{CourseRegistration.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!CourseRegistration.cpp@{CourseRegistration.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{input,  }\item[{\mbox{\hyperlink{class_course_registration}{Course\+Registration}} \&}]{course\+Reg }\end{DoxyParamCaption})}
+
+
+
+Input stream extraction operator for \doxylink{class_course_registration}{Course\+Registration} objects. 
+
+input a \doxylink{class_course_registration}{Course\+Registration} object from an input stream by reading course registration information
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & The input stream to read from \\
+\hline
+{\em course\+Reg} & The \doxylink{class_course_registration}{Course\+Registration} object to make with input values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The input stream (input) after reading the \doxylink{class_course_registration}{Course\+Registration} 
+\end{DoxyReturn}

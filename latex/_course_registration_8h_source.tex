@@ -1,0 +1,29 @@
+\doxysection{Course\+Registration.\+h}
+\hypertarget{_course_registration_8h_source}{}\label{_course_registration_8h_source}\mbox{\hyperlink{_course_registration_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ STUDENTCOURSEREGISTRATION\_COURSEREGISTRATION\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ STUDENTCOURSEREGISTRATION\_COURSEREGISTRATION\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_course_registration}{CourseRegistration}}\ \{}
+\DoxyCodeLine{00020\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00021\ \ \ \ \ std::string\ \mbox{\hyperlink{class_course_registration_af69a665d7d1e3a896ec2986c8e288a66}{courseIdentifier}};}
+\DoxyCodeLine{00022\ \ \ \ \ std::string\ \mbox{\hyperlink{class_course_registration_ab8455278c9cc0783893a3bce2a8fd655}{studentIdentifier}};}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_course_registration_acd29cb48054fc1035659af67a3a445b6}{numberOfCreditHours}};}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{class_course_registration_afc23eb1591c214bc15d8a6ebbabb663b}{courseGrade}};}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{comment}{//\ Constructors\ with\ default\ arguments}}
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{class_course_registration_ad02cda6ae6cba23ef881bed7241484b1}{CourseRegistration}}(\textcolor{keyword}{const}\ std::string\&\ courseID\ =\ \textcolor{stringliteral}{"{}"{}},\ \textcolor{keyword}{const}\ std::string\&\ studentID\ =\ \textcolor{stringliteral}{"{}"{}},\ \textcolor{keywordtype}{int}\ creditHours\ =\ 0,\ \textcolor{keywordtype}{char}\ grade\ =\ \textcolor{charliteral}{'\ '});}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keyword}{friend}\ std::istream\&\ \mbox{\hyperlink{class_course_registration_ae855faebf1c97a76db0a892fb7c5ff8f}{operator>>}}(std::istream\&\ input,\ \mbox{\hyperlink{class_course_registration}{CourseRegistration}}\&\ courseReg);}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keyword}{friend}\ std::ostream\&\ \mbox{\hyperlink{class_course_registration_a270f9386338b844ff616dd3df44baf78}{operator<<}}(std::ostream\&\ output,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_course_registration}{CourseRegistration}}\&\ courseReg);}
+\DoxyCodeLine{00052\ \};}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//STUDENTCOURSEREGISTRATION\_COURSEREGISTRATION\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,45 @@
+\doxysection{Date.\+h}
+\hypertarget{_date_8h_source}{}\label{_date_8h_source}\mbox{\hyperlink{_date_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ STUDENTCOURSEREGISTRATION\_DATE\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ STUDENTCOURSEREGISTRATION\_DATE\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_date}{Date}}\ \{}
+\DoxyCodeLine{00015\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ day;\ \ \ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{int}\ month;\ }
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{int}\ year;\ \ }
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{class_date_aed583a4969965fc6e3664f88feb0325b}{Date}}(\textcolor{keywordtype}{int}\ day\ =\ 1,\ \textcolor{keywordtype}{int}\ month\ =\ 1,\ \textcolor{keywordtype}{int}\ year\ =\ 2000);}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_date_a0f253815240e70f4c39cb93cc68bd3f4}{getDay}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_date_a332f6e3a2f6a40d73742b6dab7be0f64}{getMonth}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_date_a8b0869f34c2b38d108ab83ee2e770e5d}{getYear}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_date_a2f97b9d1ac5ef0ef6b6cab3335c5303d}{setDay}}(\textcolor{keywordtype}{int}\ day);}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_date_a23aa56014dd581d691607df5d4474f64}{setMonth}}(\textcolor{keywordtype}{int}\ month);}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_date_a895c4ae9868e43577cf59d9c679d7a71}{setYear}}(\textcolor{keywordtype}{int}\ year);}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_date_a56469dbfb6a0c32326330796cb316881}{operator<}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_date}{Date}}\&\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00078\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_date_a3b103cc8257d3055aedb519fff343503}{operator==}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_date}{Date}}\&\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00087\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_date_ab2943ef426612046e084e2d885c5fed4}{operator>}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_date}{Date}}\&\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00089\ \ \ \ \ \textcolor{keyword}{friend}\ std::istream\&\ \mbox{\hyperlink{class_date_a4d60fae6ffff4d027e1e987183c4cdbc}{operator>>}}(std::istream\&\ in,\ \mbox{\hyperlink{class_date}{Date}}\&\ date);}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00091\ \ \ \ \ \textcolor{keyword}{friend}\ std::ostream\&\ \mbox{\hyperlink{class_date_ada4f8712609249fde898198589dc73e5}{operator<<}}(std::ostream\&\ out,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_date}{Date}}\&\ date);}
+\DoxyCodeLine{00092\ }
+\DoxyCodeLine{00093\ \};}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00095\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//STUDENTCOURSEREGISTRATION\_DATE\_H}}
+
+\end{DoxyCode}

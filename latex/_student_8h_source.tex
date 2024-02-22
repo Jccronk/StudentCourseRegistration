@@ -1,0 +1,46 @@
+\doxysection{Student.\+h}
+\hypertarget{_student_8h_source}{}\label{_student_8h_source}\mbox{\hyperlink{_student_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ STUDENTCOURSEREGISTRATION\_STUDENT\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ STUDENTCOURSEREGISTRATION\_STUDENT\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_date_8h}{Date.h}}"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_student}{Student}}\ \{}
+\DoxyCodeLine{00013\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{int}\ identifier;}
+\DoxyCodeLine{00015\ \ \ \ \ std::string\ firstName;}
+\DoxyCodeLine{00016\ \ \ \ \ std::string\ lastName;}
+\DoxyCodeLine{00017\ \ \ \ \ std::string\ address;}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{class_date}{Date}}\ enrollmentDate;}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{int}\ creditHoursCompleted;}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{class_student_a95538a8aaa348c49e524704809a7bc24}{Student}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id}\ =\ 0,\ \textcolor{keyword}{const}\ std::string\&\ first\ =\ \textcolor{stringliteral}{"{}"{}},\ \textcolor{keyword}{const}\ std::string\&\ last\ =\ \textcolor{stringliteral}{"{}"{}},\ \textcolor{keyword}{const}\ std::string\&\ addr\ =\ \textcolor{stringliteral}{"{}"{}},}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_date}{Date}}\&\ date\ =\ \mbox{\hyperlink{class_date}{Date}}(),\ \textcolor{keywordtype}{int}\ credits\ =\ 0);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{comment}{//\ Getter\ and\ Setter\ methods}}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{int}\ getIdentifier()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ setIdentifier(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ getFirstName()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ setFirstName(\textcolor{keyword}{const}\ std::string\&\ first);}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ getLastName()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ setLastName(\textcolor{keyword}{const}\ std::string\&\ last);}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ getAddress()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ setAddress(\textcolor{keyword}{const}\ std::string\&\ addr);}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_date}{Date}}\&\ getEnrollmentDate()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ setEnrollmentDate(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_date}{Date}}\&\ date);}
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{int}\ getCreditHoursCompleted()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ setCreditHoursCompleted(\textcolor{keywordtype}{int}\ credits);}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{comment}{//\ Input\ and\ Output\ operators}}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keyword}{friend}\ std::istream\&\ \mbox{\hyperlink{class_student_a346086824d08147b8544ca5403748e5d}{operator>>}}(std::istream\&\ in,\ \mbox{\hyperlink{class_student}{Student}}\&\ student);}
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keyword}{friend}\ std::ostream\&\ \mbox{\hyperlink{class_student_aadd1864a776093e95f449dc91906f9eb}{operator<<}}(std::ostream\&\ out,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_student}{Student}}\&\ student);}
+\DoxyCodeLine{00055\ \};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//STUDENTCOURSEREGISTRATION\_STUDENT\_H}}
+
+\end{DoxyCode}
