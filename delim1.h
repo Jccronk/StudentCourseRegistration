@@ -3,7 +3,7 @@
 #define DELIM_H
 
 #include <iostream>
-#include "varlen.h"
+#include "varlen1.h"
 
 using namespace std;
 
@@ -41,6 +41,6 @@ inline DelimFieldBuffer :: DelimFieldBuffer
 	Init (buffer . Delim);
 }
 
-#include "delim.cpp"
+
 #endif
 

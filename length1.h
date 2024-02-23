@@ -4,7 +4,7 @@
 #define LENGTH_H
 
 #include <iostream>
-#include "varlen.h"
+#include "varlen1.h"
 
 using namespace std;
 
@@ -28,5 +28,5 @@ class LengthFieldBuffer: public VariableLengthBuffer
  	int Init ();
    protected:
 };
-#include "length.cpp"
+
 #endif

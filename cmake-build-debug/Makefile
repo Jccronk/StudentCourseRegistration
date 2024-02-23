@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DateTest
-
-# Build rule for target.
-DateTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DateTest
-.PHONY : DateTest
-
-# fast build rule for target.
-DateTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DateTest.dir/build.make CMakeFiles/DateTest.dir/build
-.PHONY : DateTest/fast
-
-#=============================================================================
 # Target rules for targets named StudentTest
 
 # Build rule for target.
@@ -208,7 +195,6 @@ Date.o: Date.cpp.o
 
 # target to build an object file
 Date.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DateTest.dir/build.make CMakeFiles/DateTest.dir/Date.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/Date.cpp.o
 .PHONY : Date.cpp.o
 
@@ -217,7 +203,6 @@ Date.i: Date.cpp.i
 
 # target to preprocess a source file
 Date.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DateTest.dir/build.make CMakeFiles/DateTest.dir/Date.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/Date.cpp.i
 .PHONY : Date.cpp.i
 
@@ -226,33 +211,8 @@ Date.s: Date.cpp.s
 
 # target to generate assembly for a file
 Date.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DateTest.dir/build.make CMakeFiles/DateTest.dir/Date.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/Date.cpp.s
 .PHONY : Date.cpp.s
-
-DateDriver.o: DateDriver.cpp.o
-.PHONY : DateDriver.o
-
-# target to build an object file
-DateDriver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DateTest.dir/build.make CMakeFiles/DateTest.dir/DateDriver.cpp.o
-.PHONY : DateDriver.cpp.o
-
-DateDriver.i: DateDriver.cpp.i
-.PHONY : DateDriver.i
-
-# target to preprocess a source file
-DateDriver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DateTest.dir/build.make CMakeFiles/DateTest.dir/DateDriver.cpp.i
-.PHONY : DateDriver.cpp.i
-
-DateDriver.s: DateDriver.cpp.s
-.PHONY : DateDriver.s
-
-# target to generate assembly for a file
-DateDriver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DateTest.dir/build.make CMakeFiles/DateTest.dir/DateDriver.cpp.s
-.PHONY : DateDriver.cpp.s
 
 Student.o: Student.cpp.o
 .PHONY : Student.o
@@ -311,7 +271,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CourseRegistrationTest"
-	@echo "... DateTest"
 	@echo "... StudentTest"
 	@echo "... CourseRegistration.o"
 	@echo "... CourseRegistration.i"
@@ -322,9 +281,6 @@ help:
 	@echo "... Date.o"
 	@echo "... Date.i"
 	@echo "... Date.s"
-	@echo "... DateDriver.o"
-	@echo "... DateDriver.i"
-	@echo "... DateDriver.s"
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"

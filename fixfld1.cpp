@@ -1,7 +1,7 @@
 // fixlen.cc
 
-#include "fixfld.h"
-#include "length.h"
+#include "fixfld1.h"
+#include "length1.h"
 #include <string.h>
 
 //class FixedFieldBuffer

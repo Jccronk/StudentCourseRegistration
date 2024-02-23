@@ -1,5 +1,5 @@
 // deltext.cc
-#include "delim.h"
+#include "delim1.h"
 #include <string.h>
 
 //class DelimFieldBuffer

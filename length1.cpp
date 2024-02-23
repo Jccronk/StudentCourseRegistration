@@ -1,5 +1,5 @@
 // lentext.cc
-#include "length.h"
+#include "length1.h"
 #include <string.h>
 
 //class LengthFieldBuffer 

@@ -4,7 +4,7 @@
 
 #include <stdlib.h>
 #include <iostream>
-#include "fixlen.h"
+#include "fixlen1.h"
 
 using namespace std;
 
@@ -41,6 +41,6 @@ inline FixedFieldBuffer :: FixedFieldBuffer (const FixedFieldBuffer & buffer)
 {
 	Init (buffer . NumFields, buffer . FieldSize);
 }
-#include "fixfld.cpp"
+
 #endif
 

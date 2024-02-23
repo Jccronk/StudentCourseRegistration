@@ -5,7 +5,7 @@
 
 #include <stdlib.h>
 #include <fstream>
-#include "iobuffer.h"
+#include "iobuffer1.h"
 
 
 #ifndef FALSE
@@ -53,6 +53,6 @@ class BufferFile
 	int WriteHeader ();
 };
 
-#include "buffile.cpp"
+
 #endif
 

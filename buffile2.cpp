@@ -1,6 +1,6 @@
 // buffile.cc
 
-#include "buffile.h"
+#include "buffile2.h"
 
 BufferFile::BufferFile (IOBuffer & from)
  // create with a buffer
