@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="StudentCourseRegistration"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DateTest">
+				<Option output="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/DateTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 DateTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DateTest/fast">
+				<Option output="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/DateTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 DateTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StudentTest">
+				<Option output="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/StudentTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StudentTest/fast">
+				<Option output="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/StudentTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CourseRegistrationTest">
+				<Option output="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CourseRegistrationTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 CourseRegistrationTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CourseRegistrationTest/fast">
+				<Option output="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CourseRegistrationTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 CourseRegistrationTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/CourseRegistration.cpp">
+			<Option target="CourseRegistrationTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/CourseRegistration.h">
+			<Option target="CourseRegistrationTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/CourseRegistrationDriver.cpp">
+			<Option target="CourseRegistrationTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/Date.cpp">
+			<Option target="DateTest"/>
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/Date.h">
+			<Option target="DateTest"/>
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/DateDriver.cpp">
+			<Option target="DateTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/Student.cpp">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/Student.h">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/StudentDriver.cpp">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
