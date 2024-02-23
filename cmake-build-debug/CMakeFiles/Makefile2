@@ -83,12 +83,12 @@ clean: CMakeFiles/CourseRegistrationTest.dir/clean
 CMakeFiles/StudentTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7 "Built target StudentTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12 "Built target StudentTest"
 .PHONY : CMakeFiles/StudentTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StudentTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/StudentTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/StudentTest.dir/rule

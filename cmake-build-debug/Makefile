@@ -262,6 +262,126 @@ StudentDriver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/StudentDriver.cpp.s
 .PHONY : StudentDriver.cpp.s
 
+buffile2.o: buffile2.cpp.o
+.PHONY : buffile2.o
+
+# target to build an object file
+buffile2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/buffile2.cpp.o
+.PHONY : buffile2.cpp.o
+
+buffile2.i: buffile2.cpp.i
+.PHONY : buffile2.i
+
+# target to preprocess a source file
+buffile2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/buffile2.cpp.i
+.PHONY : buffile2.cpp.i
+
+buffile2.s: buffile2.cpp.s
+.PHONY : buffile2.s
+
+# target to generate assembly for a file
+buffile2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/buffile2.cpp.s
+.PHONY : buffile2.cpp.s
+
+delim1.o: delim1.cpp.o
+.PHONY : delim1.o
+
+# target to build an object file
+delim1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/delim1.cpp.o
+.PHONY : delim1.cpp.o
+
+delim1.i: delim1.cpp.i
+.PHONY : delim1.i
+
+# target to preprocess a source file
+delim1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/delim1.cpp.i
+.PHONY : delim1.cpp.i
+
+delim1.s: delim1.cpp.s
+.PHONY : delim1.s
+
+# target to generate assembly for a file
+delim1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/delim1.cpp.s
+.PHONY : delim1.cpp.s
+
+fixlen1.o: fixlen1.cpp.o
+.PHONY : fixlen1.o
+
+# target to build an object file
+fixlen1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/fixlen1.cpp.o
+.PHONY : fixlen1.cpp.o
+
+fixlen1.i: fixlen1.cpp.i
+.PHONY : fixlen1.i
+
+# target to preprocess a source file
+fixlen1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/fixlen1.cpp.i
+.PHONY : fixlen1.cpp.i
+
+fixlen1.s: fixlen1.cpp.s
+.PHONY : fixlen1.s
+
+# target to generate assembly for a file
+fixlen1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/fixlen1.cpp.s
+.PHONY : fixlen1.cpp.s
+
+iobuffer1.o: iobuffer1.cpp.o
+.PHONY : iobuffer1.o
+
+# target to build an object file
+iobuffer1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/iobuffer1.cpp.o
+.PHONY : iobuffer1.cpp.o
+
+iobuffer1.i: iobuffer1.cpp.i
+.PHONY : iobuffer1.i
+
+# target to preprocess a source file
+iobuffer1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/iobuffer1.cpp.i
+.PHONY : iobuffer1.cpp.i
+
+iobuffer1.s: iobuffer1.cpp.s
+.PHONY : iobuffer1.s
+
+# target to generate assembly for a file
+iobuffer1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/iobuffer1.cpp.s
+.PHONY : iobuffer1.cpp.s
+
+varlen1.o: varlen1.cpp.o
+.PHONY : varlen1.o
+
+# target to build an object file
+varlen1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/varlen1.cpp.o
+.PHONY : varlen1.cpp.o
+
+varlen1.i: varlen1.cpp.i
+.PHONY : varlen1.i
+
+# target to preprocess a source file
+varlen1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/varlen1.cpp.i
+.PHONY : varlen1.cpp.i
+
+varlen1.s: varlen1.cpp.s
+.PHONY : varlen1.s
+
+# target to generate assembly for a file
+varlen1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentTest.dir/build.make CMakeFiles/StudentTest.dir/varlen1.cpp.s
+.PHONY : varlen1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,6 +407,21 @@ help:
 	@echo "... StudentDriver.o"
 	@echo "... StudentDriver.i"
 	@echo "... StudentDriver.s"
+	@echo "... buffile2.o"
+	@echo "... buffile2.i"
+	@echo "... buffile2.s"
+	@echo "... delim1.o"
+	@echo "... delim1.i"
+	@echo "... delim1.s"
+	@echo "... fixlen1.o"
+	@echo "... fixlen1.i"
+	@echo "... fixlen1.s"
+	@echo "... iobuffer1.o"
+	@echo "... iobuffer1.i"
+	@echo "... iobuffer1.s"
+	@echo "... varlen1.o"
+	@echo "... varlen1.i"
+	@echo "... varlen1.s"
 .PHONY : help
 
 

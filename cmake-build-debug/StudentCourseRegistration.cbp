@@ -138,6 +138,36 @@
 		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/StudentDriver.cpp">
 			<Option target="StudentTest"/>
 		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/buffile2.cpp">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/buffile2.h">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/delim1.cpp">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/delim1.h">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/fixlen1.cpp">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/fixlen1.h">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/iobuffer1.cpp">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/iobuffer1.h">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/varlen1.cpp">
+			<Option target="StudentTest"/>
+		</Unit>
+		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/varlen1.h">
+			<Option target="StudentTest"/>
+		</Unit>
 		<Unit filename="/Users/jakecronk/CLionProjects/StudentCourseRegistration/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

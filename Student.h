@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "Date.h"
+#include "iobuffer1.h"
 
 class Student {
 private:
@@ -52,6 +53,9 @@ public:
     // Input and Output operators
     friend std::istream& operator>>(std::istream& in, Student& student);
     friend std::ostream& operator<<(std::ostream& out, const Student& student);
+
+    bool Pack(IOBuffer &buffer) const; // Pack the object's attributes into the buffer
+    bool Unpack(IOBuffer &buffer); // Unpack the buffer's content into the object's attributes
 };
 
 

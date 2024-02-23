@@ -5,6 +5,8 @@
 
 #include "Student.h"
 #include "Date.h"
+#include <cstdlib> // For strtol
+#include <cerrno> // For errno
 
 
 /**
@@ -132,4 +134,59 @@ std::ostream& operator<<(std::ostream& out, const Student& student) {
 
     return out;
 }
+
+bool Student::Pack(IOBuffer &buffer) const {
+    buffer.Clear(); // Clear any existing content in the buffer
+    // Convert identifier (int) to string and pack
+    std::string identifierStr = std::to_string(this->identifier);
+    if (buffer.Pack(identifierStr.c_str()) == -1) return false;
+    if (buffer.Pack(this->firstName.c_str()) == -1) return false;
+    if (buffer.Pack(this->lastName.c_str()) == -1) return false;
+    if (buffer.Pack(this->address.c_str()) == -1) return false;
+
+    // Constructing a date string from Date object
+    std::string dateStr = std::to_string(this->enrollmentDate.getMonth()) + "/" +
+                          std::to_string(this->enrollmentDate.getDay()) + "/" +
+                          std::to_string(this->enrollmentDate.getYear());
+    if (buffer.Pack(dateStr.c_str()) == -1) return false;
+
+    std::string creditHoursCompletedStr = std::to_string(this->creditHoursCompleted);
+    if (buffer.Pack(creditHoursCompletedStr.c_str()) == -1) return false;
+    return true;
+}
+
+bool Student::Unpack(IOBuffer &buffer) {
+    char buf[100]; // Adjust size based on expected maximum length of attributes
+    char *end;
+    // Unpack identifier from the buffer and convert to int
+    if (buffer.Unpack(buf) == -1) return false;
+    this->identifier = std::stoi(buf);
+    if (buffer.Unpack(buf) == -1) return false;
+    this->firstName = buf;
+    if (buffer.Unpack(buf) == -1) return false;
+    this->lastName = buf;
+    if (buffer.Unpack(buf) == -1) return false;
+    this->address = buf;
+
+    // Unpack date string and reconstruct Date object
+    if (buffer.Unpack(buf) == -1) return false;
+    errno = 0; // Reset errno before conversion
+    long month = strtol(buf, &end, 10);
+    if (buf == end || errno != 0) return false; // Check conversion error
+    long day = strtol(end + 1, &end, 10); // Skip delimiter
+    if (*end != '/' || errno != 0) return false; // Check format and conversion error
+    long year = strtol(end + 1, &end, 10); // Skip next delimiter
+    if (*end != '\0' || errno != 0) return false; // Check for final conversion error
+
+    this->enrollmentDate.setDay(static_cast<int>(day));
+    this->enrollmentDate.setMonth(static_cast<int>(month));
+    this->enrollmentDate.setYear(static_cast<int>(year));
+
+
+    if (buffer.Unpack(buf) == -1) return false;
+    this->creditHoursCompleted = std::stoi(buf);
+    return true;
+}
+
+
 

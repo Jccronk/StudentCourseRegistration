@@ -111,11 +111,86 @@ CMakeFiles/StudentTest.dir/StudentDriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentTest.dir/StudentDriver.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jakecronk/CLionProjects/StudentCourseRegistration/StudentDriver.cpp -o CMakeFiles/StudentTest.dir/StudentDriver.cpp.s
 
+CMakeFiles/StudentTest.dir/buffile2.cpp.o: CMakeFiles/StudentTest.dir/flags.make
+CMakeFiles/StudentTest.dir/buffile2.cpp.o: /Users/jakecronk/CLionProjects/StudentCourseRegistration/buffile2.cpp
+CMakeFiles/StudentTest.dir/buffile2.cpp.o: CMakeFiles/StudentTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StudentTest.dir/buffile2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentTest.dir/buffile2.cpp.o -MF CMakeFiles/StudentTest.dir/buffile2.cpp.o.d -o CMakeFiles/StudentTest.dir/buffile2.cpp.o -c /Users/jakecronk/CLionProjects/StudentCourseRegistration/buffile2.cpp
+
+CMakeFiles/StudentTest.dir/buffile2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentTest.dir/buffile2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jakecronk/CLionProjects/StudentCourseRegistration/buffile2.cpp > CMakeFiles/StudentTest.dir/buffile2.cpp.i
+
+CMakeFiles/StudentTest.dir/buffile2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentTest.dir/buffile2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jakecronk/CLionProjects/StudentCourseRegistration/buffile2.cpp -o CMakeFiles/StudentTest.dir/buffile2.cpp.s
+
+CMakeFiles/StudentTest.dir/delim1.cpp.o: CMakeFiles/StudentTest.dir/flags.make
+CMakeFiles/StudentTest.dir/delim1.cpp.o: /Users/jakecronk/CLionProjects/StudentCourseRegistration/delim1.cpp
+CMakeFiles/StudentTest.dir/delim1.cpp.o: CMakeFiles/StudentTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StudentTest.dir/delim1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentTest.dir/delim1.cpp.o -MF CMakeFiles/StudentTest.dir/delim1.cpp.o.d -o CMakeFiles/StudentTest.dir/delim1.cpp.o -c /Users/jakecronk/CLionProjects/StudentCourseRegistration/delim1.cpp
+
+CMakeFiles/StudentTest.dir/delim1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentTest.dir/delim1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jakecronk/CLionProjects/StudentCourseRegistration/delim1.cpp > CMakeFiles/StudentTest.dir/delim1.cpp.i
+
+CMakeFiles/StudentTest.dir/delim1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentTest.dir/delim1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jakecronk/CLionProjects/StudentCourseRegistration/delim1.cpp -o CMakeFiles/StudentTest.dir/delim1.cpp.s
+
+CMakeFiles/StudentTest.dir/iobuffer1.cpp.o: CMakeFiles/StudentTest.dir/flags.make
+CMakeFiles/StudentTest.dir/iobuffer1.cpp.o: /Users/jakecronk/CLionProjects/StudentCourseRegistration/iobuffer1.cpp
+CMakeFiles/StudentTest.dir/iobuffer1.cpp.o: CMakeFiles/StudentTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/StudentTest.dir/iobuffer1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentTest.dir/iobuffer1.cpp.o -MF CMakeFiles/StudentTest.dir/iobuffer1.cpp.o.d -o CMakeFiles/StudentTest.dir/iobuffer1.cpp.o -c /Users/jakecronk/CLionProjects/StudentCourseRegistration/iobuffer1.cpp
+
+CMakeFiles/StudentTest.dir/iobuffer1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentTest.dir/iobuffer1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jakecronk/CLionProjects/StudentCourseRegistration/iobuffer1.cpp > CMakeFiles/StudentTest.dir/iobuffer1.cpp.i
+
+CMakeFiles/StudentTest.dir/iobuffer1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentTest.dir/iobuffer1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jakecronk/CLionProjects/StudentCourseRegistration/iobuffer1.cpp -o CMakeFiles/StudentTest.dir/iobuffer1.cpp.s
+
+CMakeFiles/StudentTest.dir/varlen1.cpp.o: CMakeFiles/StudentTest.dir/flags.make
+CMakeFiles/StudentTest.dir/varlen1.cpp.o: /Users/jakecronk/CLionProjects/StudentCourseRegistration/varlen1.cpp
+CMakeFiles/StudentTest.dir/varlen1.cpp.o: CMakeFiles/StudentTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/StudentTest.dir/varlen1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentTest.dir/varlen1.cpp.o -MF CMakeFiles/StudentTest.dir/varlen1.cpp.o.d -o CMakeFiles/StudentTest.dir/varlen1.cpp.o -c /Users/jakecronk/CLionProjects/StudentCourseRegistration/varlen1.cpp
+
+CMakeFiles/StudentTest.dir/varlen1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentTest.dir/varlen1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jakecronk/CLionProjects/StudentCourseRegistration/varlen1.cpp > CMakeFiles/StudentTest.dir/varlen1.cpp.i
+
+CMakeFiles/StudentTest.dir/varlen1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentTest.dir/varlen1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jakecronk/CLionProjects/StudentCourseRegistration/varlen1.cpp -o CMakeFiles/StudentTest.dir/varlen1.cpp.s
+
+CMakeFiles/StudentTest.dir/fixlen1.cpp.o: CMakeFiles/StudentTest.dir/flags.make
+CMakeFiles/StudentTest.dir/fixlen1.cpp.o: /Users/jakecronk/CLionProjects/StudentCourseRegistration/fixlen1.cpp
+CMakeFiles/StudentTest.dir/fixlen1.cpp.o: CMakeFiles/StudentTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/StudentTest.dir/fixlen1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentTest.dir/fixlen1.cpp.o -MF CMakeFiles/StudentTest.dir/fixlen1.cpp.o.d -o CMakeFiles/StudentTest.dir/fixlen1.cpp.o -c /Users/jakecronk/CLionProjects/StudentCourseRegistration/fixlen1.cpp
+
+CMakeFiles/StudentTest.dir/fixlen1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentTest.dir/fixlen1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jakecronk/CLionProjects/StudentCourseRegistration/fixlen1.cpp > CMakeFiles/StudentTest.dir/fixlen1.cpp.i
+
+CMakeFiles/StudentTest.dir/fixlen1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentTest.dir/fixlen1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jakecronk/CLionProjects/StudentCourseRegistration/fixlen1.cpp -o CMakeFiles/StudentTest.dir/fixlen1.cpp.s
+
 # Object files for target StudentTest
 StudentTest_OBJECTS = \
 "CMakeFiles/StudentTest.dir/Student.cpp.o" \
 "CMakeFiles/StudentTest.dir/Date.cpp.o" \
-"CMakeFiles/StudentTest.dir/StudentDriver.cpp.o"
+"CMakeFiles/StudentTest.dir/StudentDriver.cpp.o" \
+"CMakeFiles/StudentTest.dir/buffile2.cpp.o" \
+"CMakeFiles/StudentTest.dir/delim1.cpp.o" \
+"CMakeFiles/StudentTest.dir/iobuffer1.cpp.o" \
+"CMakeFiles/StudentTest.dir/varlen1.cpp.o" \
+"CMakeFiles/StudentTest.dir/fixlen1.cpp.o"
 
 # External object files for target StudentTest
 StudentTest_EXTERNAL_OBJECTS =
@@ -123,9 +198,14 @@ StudentTest_EXTERNAL_OBJECTS =
 StudentTest: CMakeFiles/StudentTest.dir/Student.cpp.o
 StudentTest: CMakeFiles/StudentTest.dir/Date.cpp.o
 StudentTest: CMakeFiles/StudentTest.dir/StudentDriver.cpp.o
+StudentTest: CMakeFiles/StudentTest.dir/buffile2.cpp.o
+StudentTest: CMakeFiles/StudentTest.dir/delim1.cpp.o
+StudentTest: CMakeFiles/StudentTest.dir/iobuffer1.cpp.o
+StudentTest: CMakeFiles/StudentTest.dir/varlen1.cpp.o
+StudentTest: CMakeFiles/StudentTest.dir/fixlen1.cpp.o
 StudentTest: CMakeFiles/StudentTest.dir/build.make
 StudentTest: CMakeFiles/StudentTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable StudentTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jakecronk/CLionProjects/StudentCourseRegistration/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable StudentTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StudentTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
